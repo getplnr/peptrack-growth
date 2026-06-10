@@ -1,0 +1,342 @@
+[
+  {
+    "day": 1,
+    "platform": "x",
+    "pillar": "founder story",
+    "format": "short post",
+    "hook": "I built PepTrack because I was tracking my injections in the Notes app and a spreadsheet that I never opened.",
+    "body": "It started as a personal problem. I wanted one private place to log a shot, set a reminder, and see my own history without digging through screenshots. So I made it. Local-first, no account required.",
+    "cta": "PepTrack is on the App Store if you want a simpler place to keep your own records.",
+    "hashtags": "#GLP1 #peptides #buildinpublic"
+  },
+  {
+    "day": 1,
+    "platform": "instagram",
+    "pillar": "privacy-first tracking",
+    "format": "carousel caption",
+    "hook": "Your tracking data should belong to you. Full stop.",
+    "body": "PepTrack is local-first and private. Your logs, reminders, and notes live on your device. No social feed, no required account, no selling your data. Just a calm place to keep your own records organized.",
+    "cta": "Download PepTrack on the App Store to keep your tracking private.",
+    "hashtags": "#privacyfirst #GLP1 #peptidejourney #healthtracking #ioshealth"
+  },
+  {
+    "day": 2,
+    "platform": "reddit",
+    "pillar": "what I wish I tracked earlier",
+    "format": "discussion post",
+    "hook": "What's one thing you wish you'd started logging from day one of your journey?",
+    "body": "Genuine question for people keeping records. For me it was injection site, I never wrote it down early and later wished I had a simple history. Curious what others track. (Educational discussion only. No medical advice, just organization habits. I'll only post this with mod permission and will disclose I built a tracking app if asked.)",
+    "cta": "If anyone wants the app I use to keep this organized, happy to share in a comment if the mods are okay with it.",
+    "hashtags": ""
+  },
+  {
+    "day": 2,
+    "platform": "tiktok",
+    "pillar": "app walkthroughs",
+    "format": "screen-record script",
+    "hook": "POV: you open one app and your whole tracking log is already organized.",
+    "body": "Quick screen tour: log a shot in two taps, see your history on a calendar, set your next reminder. That's it. No spreadsheet, no scattered notes. Voiceover stays calm and factual, no claims, just showing the interface.",
+    "cta": "PepTrack, free on the App Store. Link in bio.",
+    "hashtags": "#GLP1 #peptidetracker #organization #ios #apptour"
+  },
+  {
+    "day": 3,
+    "platform": "linkedin",
+    "pillar": "founder story",
+    "format": "text post",
+    "hook": "The best products often start as a tool you build for yourself.",
+    "body": "I kept losing track of my own health records across notes, photos, and memory. PepTrack came out of wanting one private, organized place to log and review. Building local-first taught me how much people value owning their own data. Sharing the journey as a solo founder.",
+    "cta": "PepTrack is live on the App Store if a private tracking tool is useful to you.",
+    "hashtags": "#buildinpublic #indiedev #iosapp #healthtech"
+  },
+  {
+    "day": 4,
+    "platform": "instagram",
+    "pillar": "injection site rotation",
+    "format": "carousel caption",
+    "hook": "If you can't remember where your last shot went, you're not alone.",
+    "body": "PepTrack lets you log the site each time and shows you a simple visual of your rotation history. It's a record-keeping tool, so you can see your own pattern at a glance instead of guessing.",
+    "cta": "Keep your own site-rotation log organized. PepTrack on the App Store.",
+    "hashtags": "#injectiontracking #GLP1 #peptidejourney #organization #ioshealth"
+  },
+  {
+    "day": 5,
+    "platform": "x",
+    "pillar": "injection reminders",
+    "format": "short post",
+    "hook": "Missed a dose because life got busy? The reminder isn't the hard part, remembering to set it is.",
+    "body": "PepTrack lets you set your own schedule and reminders once, then logs each shot when you take it. It's a simple organizer for your routine, you decide the timing.",
+    "cta": "Set up your own reminders in PepTrack, free on the App Store.",
+    "hashtags": "#GLP1 #peptides #reminders"
+  },
+  {
+    "day": 6,
+    "platform": "youtube_shorts",
+    "pillar": "app walkthroughs",
+    "format": "vertical video script",
+    "hook": "Here's how I keep my injection log organized in under 30 seconds.",
+    "body": "Open app, tap log, pick the site, save. Show the calendar history filling in. Show setting a reminder. Calm voiceover, screen recording only, no results or medical talk, purely how the tracking interface works.",
+    "cta": "PepTrack is free on the App Store. Link in the description.",
+    "hashtags": "#GLP1 #peptidetracker #ios #shorts #organization"
+  },
+  {
+    "day": 7,
+    "platform": "facebook",
+    "pillar": "progress tracking",
+    "format": "community post",
+    "hook": "Tracking your own progress is easier when everything lives in one place.",
+    "body": "PepTrack keeps your logs, weight trend, notes, and reminders together so you can look back over weeks instead of scrolling through old photos and messages. It's a personal journal and organizer, your data stays on your device.",
+    "cta": "Try PepTrack on the App Store to keep your own progress organized.",
+    "hashtags": "#GLP1 #peptidejourney #healthtracking"
+  },
+  {
+    "day": 8,
+    "platform": "instagram",
+    "pillar": "weight-trend tracking",
+    "format": "carousel caption",
+    "hook": "One number on one day tells you almost nothing. The trend tells the story.",
+    "body": "PepTrack charts the weight you log over time so you can see your own trend line instead of reacting to daily noise. You enter the numbers, the app just organizes and graphs them for you.",
+    "cta": "Chart your own weight trend in PepTrack, on the App Store.",
+    "hashtags": "#weighttracking #GLP1 #peptidejourney #progress #ioshealth"
+  },
+  {
+    "day": 9,
+    "platform": "reddit",
+    "pillar": "organizing your data",
+    "format": "discussion post",
+    "hook": "How do you keep your tracking organized, app, spreadsheet, or notebook?",
+    "body": "Curious how people here keep records of shots, weight, and notes over time. I bounced between three methods before settling on one app. Looking to compare approaches. (Educational only, no medical advice. Posting with mod permission; I'll disclose I make a tracking app if relevant.)",
+    "cta": "Happy to share what I use in the comments if mods allow it.",
+    "hashtags": ""
+  },
+  {
+    "day": 10,
+    "platform": "tiktok",
+    "pillar": "common tracking mistakes",
+    "format": "talking-head script",
+    "hook": "Three tracking mistakes I made before I had a system.",
+    "body": "1) Logging in different places so I never had one history. 2) Forgetting to note the site. 3) Tracking weight randomly instead of consistently. Framed as personal organization lessons, no advice, no claims. End on how one organized log fixed it.",
+    "cta": "I keep it all in PepTrack now, free on the App Store. Link in bio.",
+    "hashtags": "#GLP1 #peptidetracker #organization #ios #healthtok"
+  },
+  {
+    "day": 11,
+    "platform": "x",
+    "pillar": "side-effect journaling",
+    "format": "short post",
+    "hook": "Keeping a simple note of how you felt each week is something you only appreciate later.",
+    "body": "PepTrack lets you jot a private journal entry alongside each log, so your own notes live next to your dates and history. It's a journaling and record tool, your entries stay on your device.",
+    "cta": "Keep your own private journal in PepTrack, on the App Store.",
+    "hashtags": "#GLP1 #peptides #journaling"
+  },
+  {
+    "day": 12,
+    "platform": "linkedin",
+    "pillar": "privacy-first tracking",
+    "format": "text post",
+    "hook": "\"Where does my data go?\" should be the first question for any health app.",
+    "body": "We built PepTrack local-first on purpose. No required account, your records stay on your device, and there's no social layer mining your activity. As a founder in health, I'd rather earn trust through restraint than reach. Sharing how we think about privacy.",
+    "cta": "PepTrack is on the App Store if private, local-first tracking matters to you.",
+    "hashtags": "#privacy #healthtech #iosapp #buildinpublic"
+  },
+  {
+    "day": 13,
+    "platform": "instagram",
+    "pillar": "travel & routine",
+    "format": "reel caption",
+    "hook": "Travel is where most tracking routines fall apart.",
+    "body": "Different time zones, different bags, different schedule. PepTrack keeps your reminders and log with you so your routine doesn't reset when you leave home. You set the schedule, it travels with your phone.",
+    "cta": "Keep your routine organized anywhere. PepTrack on the App Store.",
+    "hashtags": "#travel #GLP1 #peptidejourney #routine #ioshealth"
+  },
+  {
+    "day": 14,
+    "platform": "youtube_shorts",
+    "pillar": "injection site rotation",
+    "format": "vertical video script",
+    "hook": "A simple way to keep a record of where each shot went.",
+    "body": "Screen recording: tap to log, select the site on the visual, save, then show the rotation history view. Calm narration explaining it's a personal record-keeping feature. No medical guidance, just how the logging works.",
+    "cta": "PepTrack, free on the App Store. Link in the description.",
+    "hashtags": "#injectiontracking #GLP1 #ios #shorts #organization"
+  },
+  {
+    "day": 15,
+    "platform": "facebook",
+    "pillar": "injection reminders",
+    "format": "community post",
+    "hook": "The reminder you set once is the one that actually helps a month from now.",
+    "body": "PepTrack lets you build your own reminder schedule and then log each shot as you take it. It's a personal organizer for your routine, you stay in control of the timing and it keeps your history tidy.",
+    "cta": "Set your reminders once in PepTrack, free on the App Store.",
+    "hashtags": "#GLP1 #reminders #peptidejourney"
+  },
+  {
+    "day": 16,
+    "platform": "x",
+    "pillar": "what I wish I tracked earlier",
+    "format": "short post",
+    "hook": "What I wish I'd logged from day one: the date, the site, and one line about how I felt.",
+    "body": "Looking back, the small notes are the ones I'd want now. PepTrack makes that a two-tap habit so your future self has a real history instead of a guess.",
+    "cta": "Start your own simple log in PepTrack, on the App Store.",
+    "hashtags": "#GLP1 #peptides #tracking"
+  },
+  {
+    "day": 17,
+    "platform": "instagram",
+    "pillar": "organizing your data",
+    "format": "carousel caption",
+    "hook": "Scattered screenshots are not a tracking system.",
+    "body": "If your records live across Notes, Photos, and memory, PepTrack pulls them into one organized place: logs, weight, reminders, and journal entries together. You own the data, the app just keeps it tidy.",
+    "cta": "Bring your tracking into one place with PepTrack, on the App Store.",
+    "hashtags": "#organization #GLP1 #peptidejourney #healthtracking #ioshealth"
+  },
+  {
+    "day": 18,
+    "platform": "reddit",
+    "pillar": "side-effect journaling",
+    "format": "discussion post",
+    "hook": "Do you keep written notes on how you feel week to week, or just go by memory?",
+    "body": "I used to rely on memory and regretted it when I wanted to look back. Now I keep a short private journal entry with each log. Curious how others handle their own note-keeping. (Educational discussion, no medical advice. Posting only with mod permission; will disclose I build a tracking app if asked.)",
+    "cta": "Glad to share the app I use for journaling if the mods are okay with it.",
+    "hashtags": ""
+  },
+  {
+    "day": 19,
+    "platform": "tiktok",
+    "pillar": "weight-trend tracking",
+    "format": "screen-record script",
+    "hook": "Stop judging your week by one number on the scale.",
+    "body": "Screen recording showing weight entries turning into a trend line over a month. Voiceover: the daily number bounces, the trend is what's worth watching. Pure data-organization framing, no outcome or medical claims.",
+    "cta": "Chart your own trend in PepTrack, free on the App Store. Link in bio.",
+    "hashtags": "#weighttracking #GLP1 #progress #ios #healthtok"
+  },
+  {
+    "day": 20,
+    "platform": "linkedin",
+    "pillar": "founder story",
+    "format": "text post",
+    "hook": "Shipping a health-adjacent app means saying no to the hype playbook.",
+    "body": "No outcome promises, no before-and-afters, no fear marketing. PepTrack is a tracking and organization tool, and keeping the messaging honest is a constraint I'm proud of. Building trust slowly is a strategy, not a compromise. Reflections from running a solo app.",
+    "cta": "PepTrack is live on the App Store if a private tracking tool fits your routine.",
+    "hashtags": "#buildinpublic #healthtech #iosapp #founders"
+  },
+  {
+    "day": 21,
+    "platform": "instagram",
+    "pillar": "GLP-1 tracking",
+    "format": "carousel caption",
+    "hook": "A weekly routine is easy to lose track of, that's exactly why it's worth logging.",
+    "body": "PepTrack is built for both daily and weekly cadences. Log each dose, set your own reminder rhythm, and see a clean history of your GLP-1 or peptide journey in one private place.",
+    "cta": "Keep your weekly routine organized in PepTrack, on the App Store.",
+    "hashtags": "#GLP1 #semaglutide #tirzepatide #peptidejourney #tracking"
+  },
+  {
+    "day": 22,
+    "platform": "x",
+    "pillar": "progress tracking",
+    "format": "short post",
+    "hook": "Progress you can't see is easy to underestimate.",
+    "body": "PepTrack keeps your logs, weight trend, and notes in one place so you can scroll back over weeks and see your own consistency. It's a journal and organizer, you bring the data, it shows you the picture.",
+    "cta": "See your own history in PepTrack, on the App Store.",
+    "hashtags": "#GLP1 #peptides #progress"
+  },
+  {
+    "day": 23,
+    "platform": "youtube_shorts",
+    "pillar": "organizing your data",
+    "format": "vertical video script",
+    "hook": "From three apps to one: how I organized my tracking.",
+    "body": "Screen recording showing the move from scattered notes and photos into a single organized log. Calm narration walking through logs, weight, reminders, and journal in one view. No claims, just the organization workflow.",
+    "cta": "PepTrack, free on the App Store. Link in the description.",
+    "hashtags": "#organization #GLP1 #ios #shorts #peptidetracker"
+  },
+  {
+    "day": 24,
+    "platform": "facebook",
+    "pillar": "travel & routine",
+    "format": "community post",
+    "hook": "Heading out of town? Your tracking routine can come with you.",
+    "body": "PepTrack keeps your reminders and log on your phone, so a trip doesn't mean a gap in your records. You set the schedule, it stays consistent wherever you are. Private and local-first.",
+    "cta": "Keep your routine steady while traveling with PepTrack, on the App Store.",
+    "hashtags": "#travel #GLP1 #routine #peptidejourney"
+  },
+  {
+    "day": 25,
+    "platform": "instagram",
+    "pillar": "common tracking mistakes",
+    "format": "carousel caption",
+    "hook": "The most common tracking mistake? Starting strong, then stopping.",
+    "body": "Consistency beats intensity for record-keeping. PepTrack makes logging a two-tap habit and uses your own reminders to keep the streak going, so your history stays complete. No pressure, just a tidy log.",
+    "cta": "Build a consistent log with PepTrack, on the App Store.",
+    "hashtags": "#organization #GLP1 #peptidejourney #tracking #ioshealth"
+  },
+  {
+    "day": 26,
+    "platform": "x",
+    "pillar": "privacy-first tracking",
+    "format": "short post",
+    "hook": "No account. No social feed. No data resale. Just your records.",
+    "body": "PepTrack is local-first by design. Your logs and notes stay on your device. We'd rather build a quiet, private tool you trust than a loud one you don't.",
+    "cta": "PepTrack is on the App Store if private tracking is what you want.",
+    "hashtags": "#privacy #GLP1 #peptides"
+  },
+  {
+    "day": 27,
+    "platform": "reddit",
+    "pillar": "injection reminders",
+    "format": "discussion post",
+    "hook": "How do you remember a weekly shot when every week looks different?",
+    "body": "Weekly cadences are oddly easy to miss because there's no daily anchor. I set a recurring reminder and log it the moment I take it. Curious what systems work for others. (Educational only, no medical advice. Posting with mod permission; will disclose I make a tracking app if it comes up.)",
+    "cta": "Happy to share the reminder setup I use if the mods allow it.",
+    "hashtags": ""
+  },
+  {
+    "day": 28,
+    "platform": "tiktok",
+    "pillar": "side-effect journaling",
+    "format": "talking-head script",
+    "hook": "Why I write one line in my tracker every week.",
+    "body": "Talking head: a quick private note about how the week went means I have a real record instead of a fuzzy memory. Framed entirely as journaling and organization, no symptoms-as-advice, no claims. Show the journal entry field briefly.",
+    "cta": "Keep your own journal in PepTrack, free on the App Store. Link in bio.",
+    "hashtags": "#journaling #GLP1 #peptidetracker #ios #organization"
+  },
+  {
+    "day": 29,
+    "platform": "linkedin",
+    "pillar": "app walkthroughs",
+    "format": "text + video post",
+    "hook": "What a calm, single-purpose tracking app looks like.",
+    "body": "A short walkthrough of PepTrack: log in two taps, see your history on a calendar, chart your weight trend, set reminders, and keep private journal notes, all in one local-first app. No feed, no noise. Built for people who just want their records organized.",
+    "cta": "PepTrack is on the App Store if a focused tracking tool is useful to you.",
+    "hashtags": "#iosapp #healthtech #buildinpublic #productdesign"
+  },
+  {
+    "day": 30,
+    "platform": "instagram",
+    "pillar": "founder story",
+    "format": "reel caption",
+    "hook": "30 days of sharing why I built this, here's the whole idea in one line.",
+    "body": "PepTrack is a private place to track injections, reminders, progress, weight, and notes in one simple iOS app. No claims, no hype, just an organized journal you own. Thanks for following along this month.",
+    "cta": "PepTrack is free on the App Store, link in bio.",
+    "hashtags": "#GLP1 #peptidejourney #buildinpublic #ioshealth #privacyfirst"
+  },
+  {
+    "day": 30,
+    "platform": "x",
+    "pillar": "GLP-1 tracking",
+    "format": "short post",
+    "hook": "One simple log beats five half-finished tracking systems.",
+    "body": "If you've started and abandoned a spreadsheet, the Notes app, and a habit tracker, that's the problem PepTrack solves: one private place for your logs, reminders, weight trend, and journal.",
+    "cta": "Keep it all in one place with PepTrack, on the App Store.",
+    "hashtags": "#GLP1 #peptides #tracking"
+  },
+  {
+    "day": 30,
+    "platform": "facebook",
+    "pillar": "what I wish I tracked earlier",
+    "format": "community post",
+    "hook": "If you're just starting to keep records, here's the simple version.",
+    "body": "You don't need a complicated system. The date, the site, your weight now and then, and a one-line note. PepTrack makes that a quick habit and keeps it organized and private on your device, so future-you has a real history.",
+    "cta": "Start your own simple log with PepTrack, on the App Store.",
+    "hashtags": "#GLP1 #peptidejourney #tracking"
+  }
+]

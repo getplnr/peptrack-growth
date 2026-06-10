@@ -1,0 +1,199 @@
+[
+  {
+    "key": "first_100_users",
+    "name": "First 100 Users",
+    "goal": "100 installs of PepTrack (App Store ID 6772598337) within 30 days, sourced from creators, coaches, peptide/GLP-1 communities, and existing PepTrack/Elite Research contacts. Tracked via Apple App-Analytics campaign tokens (?ct=) and PT- clipboard codes.",
+    "timeframe_days": 30,
+    "target_audience": "Warm + reachable early adopters: (1) GLP-1 and peptide educators/coaches already in the creator CRM at the 'ready'/'replied' stage, (2) admins/members of public peptide and GLP-1 organization communities (subreddits, Facebook groups, Discords) where founder participation is welcome, (3) existing PepTrack users who haven't yet told a friend, and (4) Jordan's direct network. Screen OUT anyone who sells the drugs or pushes protocols.",
+    "offer": "Early-supporter framing only: 'Be one of the first 100 people shaping PepTrack.' Founding supporters get their feedback prioritized into the roadmap and a thank-you in the app's supporters note. No discount-for-install, no money, no perks tied to reviews. The app itself is free to download (paywall is for premium organization features only).",
+    "cta": "Download PepTrack free on the App Store and tell us the one thing that would make tracking your journey simpler.",
+    "utm_source": "founder_direct",
+    "utm_medium": "referral",
+    "utm_campaign": "first_100_users",
+    "promo_code": "PT-FOUNDER",
+    "message_sequence": [
+      {
+        "step": 1,
+        "day_offset": 0,
+        "channel": "instagram_dm",
+        "message": "Hi [name] - I'm Jordan, I built PepTrack, a private, local-first iOS app for organizing injections, reminders, weight, and progress notes in one place. No medical claims, just a calm tracking and journaling tool. I'm gathering the first 100 people to shape where it goes. Would you be open to trying it and telling me the one thing that'd make it simpler? Free on the App Store: https://apps.apple.com/app/id6772598337?ct=PT-FOUNDER . If this isn't for you, no worries - just reply and I won't follow up."
+      },
+      {
+        "step": 2,
+        "day_offset": 0,
+        "channel": "community_post",
+        "message": "I built a private, local-first iOS app for keeping injection logs, reminders, weight, and side-effect notes organized in one place - it's a tracking and journaling tool, not advice. Sharing it here for anyone who wants a simpler way to keep their own records (everything stays on your device). Free: https://apps.apple.com/app/id6772598337?ct=PT-FOUNDER . Happy to take feature requests from this group - mods, let me know if this isn't allowed and I'll remove it."
+      },
+      {
+        "step": 3,
+        "day_offset": 3,
+        "channel": "email",
+        "message": "Subject: Quick favor - shaping PepTrack's first version\n\nHi [name], thanks for the early interest. If you've had a chance to try PepTrack, I'd love to hear the single most annoying part of keeping your own tracking organized today - that's what I'm building next. If you haven't downloaded yet, it's free here: https://apps.apple.com/app/id6772598337?ct=PT-FOUNDER (use code PT-FOUNDER if asked). No pressure at all - reply 'pass' and I'll leave you be."
+      },
+      {
+        "step": 4,
+        "day_offset": 10,
+        "channel": "instagram_dm",
+        "message": "Hey [name] - last note from me. We're about halfway to the first 100 supporters. If a private place to keep your injections, reminders, and progress organized sounds useful, the door's open: https://apps.apple.com/app/id6772598337?ct=PT-FOUNDER . Either way, thanks for your time."
+      }
+    ],
+    "follow_up_schedule": "Two touches max per contact, then stop. Day 0 first touch (DM or community post), day 3 email nudge to interested replies only, day 10 final soft DM to non-responders. Anyone who replies 'pass'/'not for me' is removed immediately and never re-contacted. Track install attribution daily in Apple App-Analytics by ct token; review pace at day 7, 14, 21 and reallocate touches toward the channels actually converting.",
+    "kpis": [
+      "100 installs in 30 days (tracked via ?ct=PT-FOUNDER + PT-FOUNDER clipboard codes)",
+      "Install pace >= 25 per week by week 2",
+      "Reply rate on personalized DMs (target >= 20%)",
+      "Number of qualitative feature-request replies captured (target >= 30)",
+      "Day-7 retention of new installs as a quality signal (App Store Connect)",
+      "Opt-out rate kept low (< 5%) as a respect/spam guardrail"
+    ]
+  },
+  {
+    "key": "ten_app_store_reviews",
+    "name": "10 App Store Reviews",
+    "goal": "10 legitimate, unincentivized App Store reviews within 30 days, generated ONLY via Apple's native SKStoreReviewController prompt, fired in-app exclusively after positive usage signals. Zero incentives, zero review-gating, zero off-platform review solicitation.",
+    "timeframe_days": 30,
+    "target_audience": "ACTIVE PepTrack users who have demonstrated genuine positive engagement in-app: e.g. logged injections across multiple sessions, hit a streak/badge milestone, completed a weekly recap, or returned on several distinct days. The existing ReviewPromptService (timing already audited as ideal) is the only mechanism - no manual asks, no email/DM 'please review us' campaigns.",
+    "offer": "None. There is deliberately NO offer, discount, perk, or reward attached to leaving a review - that would violate App Store Review Guideline 3.10 and FTC rules. The only 'ask' is Apple's own native, rate-limited prompt shown at a moment of genuine satisfaction. This campaign's 'work' is tuning WHEN the native prompt fires, not persuading users to rate.",
+    "cta": "Apple's native rating sheet only ('Enjoying PepTrack? Tap to rate'). No custom review-begging copy anywhere.",
+    "utm_source": "in_app",
+    "utm_medium": "native_prompt",
+    "utm_campaign": "ten_app_store_reviews",
+    "promo_code": "PT-REVIEW-NA",
+    "message_sequence": [
+      {
+        "step": 1,
+        "day_offset": 0,
+        "channel": "in_app_native_prompt",
+        "message": "[SYSTEM EVENT, NOT USER COPY] Verify ReviewPromptService fires SKStoreReviewController.requestReview only after a positive signal: user has >= N distinct active days AND a recent successful log/streak/badge-unlock, AND no prompt shown in the last 120 days, AND not during an error/empty state. Apple caps prompts at ~3/year - never call it manually or on a loop."
+      },
+      {
+        "step": 2,
+        "day_offset": 0,
+        "channel": "in_app_trigger_audit",
+        "message": "[INTERNAL] Confirm trigger points: (a) on a genuinely-new badge unlock celebration, (b) after a completed weekly-recap view with positive activity, (c) after a goal-progress milestone. Each is a satisfaction moment, NOT a paywall or onboarding moment. Gate behind PremiumGate-agnostic positive state so free users count too."
+      },
+      {
+        "step": 3,
+        "day_offset": 14,
+        "channel": "analytics_review",
+        "message": "[INTERNAL] Mid-flight check: compare prompt-impression count vs review count delta in App Store Connect. If prompts are firing but reviews aren't landing, the satisfaction moment is mistimed - move the trigger later in the positive flow, do NOT increase frequency or add any incentive."
+      }
+    ],
+    "follow_up_schedule": "No user-facing follow-up exists by design (Apple rate-limits and we never re-ask off-platform). Internal cadence only: audit trigger logic at day 0, review prompt-vs-review conversion in App Store Connect at day 14 and day 30, and tune the satisfaction-moment timing if conversion lags. Never add a second channel, never email/DM users to review, never gate the native prompt behind a 'do you like the app?' pre-question (that pre-gating is itself a guideline violation).",
+    "kpis": [
+      "10 new legitimate App Store reviews in 30 days",
+      "Average star rating stays >= 4.5 (quality over volume)",
+      "Native-prompt impression-to-review conversion rate (informational only - do not optimize by increasing frequency)",
+      "Zero incentivized/solicited reviews (compliance KPI - must remain zero)",
+      "No increase in negative reviews citing prompt annoyance (timing-health guardrail)"
+    ]
+  },
+  {
+    "key": "creator_affiliate_launch",
+    "name": "Creator Affiliate Launch",
+    "goal": "Sign 10 creator/coach affiliate partners from a screened pipeline of 50 prospects within 45 days, each with a per-creator code + landing page, all partnerships requiring clear #ad / paid-partnership disclosure.",
+    "timeframe_days": 45,
+    "target_audience": "50 screened prospects across the CRM niches: GLP-1 coaches, peptide educators, weight-loss-journey creators, biohacker/longevity, clinician educators, fitness/body-composition, and wellness/habits accounts. Partner with ORGANIZERS and EDUCATORS only - screen out anyone who sells/sources the drugs or pushes specific protocols. Contact only verified public business emails/DMs; leave contact blank until verified (status 'ready') - never fabricate.",
+    "offer": "Tiered, FTC-compliant partner offer (no medical/result claims in any creator-facing copy): Tier A 'Founding Creator Partner' (co-design input + featured supporter status + affiliate commission), Tier B 'Sponsored Integration + Affiliate' (flat content fee + affiliate code), Tier C 'Affiliate + Early Access' (per-install/per-subscription affiliate commission). Every arrangement contractually requires #ad or 'paid partnership' disclosure on each post. Partners promote PepTrack as a private tracking/organization/journal tool ONLY.",
+    "cta": "Partner with PepTrack as a Founding Creator - get your own code + landing page and a roadmap voice. (Disclosure: paid partnerships require #ad.)",
+    "utm_source": "creator",
+    "utm_medium": "affiliate",
+    "utm_campaign": "creator_affiliate_launch",
+    "promo_code": "PT-CREATOR",
+    "message_sequence": [
+      {
+        "step": 1,
+        "day_offset": 0,
+        "channel": "instagram_dm",
+        "message": "Hi [name] - I'm Jordan, founder of PepTrack, a private, local-first iOS app for organizing injections, reminders, weight, and progress notes (a tracking and journaling tool, not advice - no medical claims). Your audience clearly cares about staying organized on their journey. I'm inviting a small first wave of creators to partner with their own code + landing page. Could I send the details? If it's not a fit, just say so and I won't follow up."
+      },
+      {
+        "step": 2,
+        "day_offset": 1,
+        "channel": "email",
+        "message": "Subject: Founding Creator partnership - PepTrack (private tracking app)\n\nHi [name], thanks for the openness. Here's the shape: you'd get a personal code and landing page (peptrack-marketing.vercel.app/c/[your-slug]), an affiliate commission on referrals, and a voice in the roadmap. PepTrack is positioned strictly as a private organization/reminder/progress-journal tool - no medical claims, no dosing, no brand drug names, ever. Any paid post must carry a clear #ad / paid-partnership disclosure (FTC requirement we hold firm on). Want the one-pager + terms? Reply 'pass' anytime and I'll step back."
+      },
+      {
+        "step": 3,
+        "day_offset": 4,
+        "channel": "email",
+        "message": "Subject: Re: PepTrack partnership - quick follow-up\n\nHi [name], following up once on the partnership. To make it concrete: here's a sample creator page (peptrack-marketing.vercel.app/c/sample-creator) and the affiliate terms + disclosure agreement. Your code rides through via Apple App-Analytics and a PT- clipboard hand-off so referrals are attributed cleanly. No pressure - if now isn't right, just let me know."
+      },
+      {
+        "step": 4,
+        "day_offset": 8,
+        "channel": "instagram_dm",
+        "message": "Hey [name] - circling back one last time on the PepTrack Founding Creator wave (private tracking app, your own code + page + commission, #ad disclosure required). If you'd like in, I'll set up your page today. If not, all good - thanks for considering it and I won't follow up again."
+      },
+      {
+        "step": 5,
+        "day_offset": 14,
+        "channel": "email",
+        "message": "Subject: Closing the loop\n\nHi [name], I'll close this out so I'm not cluttering your inbox. If a creator partnership with PepTrack ever sounds useful down the road, the door stays open - just reply. Wishing you well either way."
+      }
+    ],
+    "follow_up_schedule": "Reuse the proven draft-first sequence: pitch at day 0/1, followup_1 at +3-4 days, followup_2 at +7-8 days, breakup at +14 days - all draft-first and manually sent by Jordan, never auto-sent. due_followups only surfaces drafts for prospects still at 'contacted' (not 'replied'). Stop immediately on any opt-out. Once signed (status 'partner'), stamp commission terms, generate the live landing page, confirm #ad disclosure language in the signed agreement, and move them into ongoing partner support.",
+    "kpis": [
+      "10 signed creator partners from 50 screened prospects (20% close)",
+      "50 prospects researched with VERIFIED public contacts (no fabricated emails)",
+      "Pitch-to-reply rate >= 25%; reply-to-signed >= 40%",
+      "100% of live partner posts carry #ad / paid-partnership disclosure (compliance KPI - must be 100%)",
+      "Installs + premium conversions attributed per creator code (ct + PT- clipboard)",
+      "Commission accuracy: revenue and commission_owed tracked per code with zero attribution disputes"
+    ]
+  },
+  {
+    "key": "elite_research_usa_distribution",
+    "name": "Elite Research USA Distribution",
+    "goal": "100+ PepTrack installs in 30 days via Elite Research USA's owned distribution surfaces (existing customers, site visitors, shipment inserts, and email/SMS ONLY to legally opted-in contacts), fully CAN-SPAM and TCPA compliant.",
+    "timeframe_days": 30,
+    "target_audience": "Elite Research USA's owned audience ONLY: (1) existing customers, (2) eliteresearchusa.com site visitors, (3) recipients of physical shipments (insert card), and (4) email/SMS subscribers who have given verifiable, documented prior consent (TCPA prior express written consent for SMS; existing-business-relationship or opt-in for email). NO purchased lists, NO scraping, NO un-consented SMS. PepTrack is presented as a complementary free organization/journal tool, never as part of any product/medical claim.",
+    "offer": "Early-supporter framing, no purchase tie-in: 'A free, private companion app to keep your own logs, reminders, and progress organized.' Elite customers are invited as early supporters whose feedback shapes the roadmap. No discount-for-install, no perk-for-review, and crucially no implication that an app + a research compound together do anything - PepTrack is strictly a personal record-keeping tool. The app download is free.",
+    "cta": "Keep your own logs organized - download PepTrack free (a private iOS tracking + reminder app).",
+    "utm_source": "elite_research_usa",
+    "utm_medium": "owned_audience",
+    "utm_campaign": "elite_research_usa_distribution",
+    "promo_code": "PT-ELITE",
+    "message_sequence": [
+      {
+        "step": 1,
+        "day_offset": 0,
+        "channel": "website_banner",
+        "message": "On eliteresearchusa.com (site visitors, no consent needed - it's owned web property): 'Stay organized with PepTrack - a free, private iOS app for keeping your own injection logs, reminders, weight, and progress notes in one place. Local-first and private. For personal tracking and organization only; not a medical device and not advice.' Button -> App Store with ?ct=PT-ELITE."
+      },
+      {
+        "step": 2,
+        "day_offset": 2,
+        "channel": "shipment_insert",
+        "message": "Printed insert card in outbound shipments: 'Keep your own records organized. PepTrack is a free, private iOS app for logging injections, setting reminders, and journaling your progress - everything stays on your device. Scan to download (QR -> App Store ?ct=PT-ELITE). For personal organization and tracking only. Not a medical device. Not medical advice.' No claims connecting any product to outcomes."
+      },
+      {
+        "step": 3,
+        "day_offset": 5,
+        "channel": "email",
+        "message": "[OPTED-IN EMAIL ONLY - CAN-SPAM compliant: truthful subject, valid physical postal address, one-click unsubscribe honored within 10 days]\nSubject: A free, private way to keep your logs organized\n\nHi [first name], a quick note from Elite Research USA. We built/partnered on a free iOS app, PepTrack, for anyone who likes keeping their own records organized - injections, reminders, weight, and progress notes, all private and on your device. It's a tracking and journaling tool only (not a medical device, not advice). If that's useful: https://apps.apple.com/app/id6772598337?ct=PT-ELITE . Not interested in emails like this? Unsubscribe here - we'll honor it right away. [Elite Research USA physical mailing address] [Unsubscribe link]"
+      },
+      {
+        "step": 4,
+        "day_offset": 12,
+        "channel": "sms",
+        "message": "[SMS ONLY TO CONTACTS WITH DOCUMENTED TCPA PRIOR EXPRESS WRITTEN CONSENT - within stated message frequency, sent in permitted hours, with opt-out honored]\n'Elite Research USA: PepTrack is a free, private iOS app to keep your own logs & reminders organized. Personal tracking only. https://apps.apple.com/app/id6772598337?ct=PT-ELITE Reply STOP to opt out.'"
+      },
+      {
+        "step": 5,
+        "day_offset": 18,
+        "channel": "email",
+        "message": "[OPTED-IN EMAIL ONLY, suppressing anyone who already installed, unsubscribed, or replied STOP]\nSubject: One more note - keeping your records private\n\nHi [first name], just once more in case it's handy: PepTrack keeps your injection logs, reminders, and progress notes organized and private on your own device - free, no account required to start. https://apps.apple.com/app/id6772598337?ct=PT-ELITE . That's the last you'll hear about it from us. [Physical mailing address] [Unsubscribe link]"
+      }
+    ],
+    "follow_up_schedule": "Owned, always-on surfaces (website banner, shipment inserts) run continuously for the 30 days. Consent-gated messaging is strictly capped: at most 2 emails (day 5, day 18) to opted-in addresses and at most 1 SMS (day 12) to TCPA-consented numbers, with full suppression of anyone who installs, unsubscribes, or replies STOP between sends. Honor every email unsubscribe within 10 days (CAN-SPAM) and every SMS STOP immediately (TCPA). Keep documented consent records and a suppression list; never re-add an opted-out contact.",
+    "kpis": [
+      "100+ installs in 30 days attributed to ?ct=PT-ELITE / PT-ELITE codes",
+      "Installs split by surface (website vs insert QR vs email vs SMS) to find the strongest owned channel",
+      "Email: deliverability, open, and click rates on opted-in sends (CAN-SPAM compliant; bounce + complaint rate kept low)",
+      "SMS: opt-out (STOP) rate kept low as a consent-health signal",
+      "Zero CAN-SPAM/TCPA violations (compliance KPI - must remain zero; all consent documented)",
+      "Unsubscribe/complaint rate below industry threshold (list-health guardrail)"
+    ]
+  }
+]

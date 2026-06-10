@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+
+body {
+  background: #07120F;
+  color: #EAF6F1;
+  -webkit-font-smoothing: antialiased;
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+@layer components {
+  .card { @apply rounded-2xl border border-line bg-surface p-5; }
+  .stat { @apply rounded-2xl border border-line bg-surface px-5 py-4; }
+  .pill { @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium; }
+  .th { @apply text-left text-[11px] uppercase tracking-wider text-dim font-semibold px-3 py-2; }
+  .td { @apply px-3 py-2 align-top text-sm border-t border-line/60; }
+  .eyebrow { @apply text-[11px] uppercase tracking-[0.18em] text-teal font-semibold; }
+  .navlink { @apply block rounded-lg px-3 py-2 text-sm text-sage hover:bg-surface2 hover:text-mint transition; }
+  .navlink-active { @apply bg-surface2 text-mint; }
+}

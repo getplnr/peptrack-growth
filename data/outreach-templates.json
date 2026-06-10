@@ -1,0 +1,794 @@
+[
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 I'm the founder of PepTrack, a simple iOS app for privately tracking injections, reminders, and progress in one place. Thought it might resonate with your audience. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (App Store: https://apps.apple.com/app/id6772598337). It's a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress notes in one place \u2014 purely an organization and progress-journal tool. Your content on the GLP-1 journey is exactly the kind of grounded, honest voice your audience trusts, and I think the app could be genuinely useful to them. Open to me sending a free link so you can try it yourself first? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack. It's a quiet little iOS app for keeping injections, reminders, weight, and progress notes all in one private place (everything stays on your phone). I've been following your stuff and the way you keep it real really stands out. No ask today \u2014 I'd just love for you to try it and tell me what's missing. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, just floating my last note back to the top in case it got buried \u2014 totally understand DMs are a flood. Quick recap: PepTrack is a private iOS app for tracking injections, reminders, and progress in one place. Happy to send a free link if you'd like to poke around. If it's not a fit, no worries at all \u2014 just say so and I'll stop here.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "follow_up_2",
+    "body": "Hey {{NAME}} \u2014 last one from me, promise. If PepTrack ever feels useful to share with your audience, the door's open anytime: https://apps.apple.com/app/id6772598337. Otherwise I'll leave you to it and won't follow up again. Thanks either way.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 genuinely appreciate you taking a look and for the thoughtful note. If anything about the app feels clunky or missing, I'd rather hear it than not. Your honest read means a lot.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "not_interested",
+    "body": "Totally understand, {{NAME}} \u2014 thanks for the reply. I won't follow up. If your needs ever change, the App Store link is there anytime. Wishing you the best with your content.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would you be open to a paid partnership featuring PepTrack \u2014 a private iOS app for tracking injections, reminders, and progress? Structure and rate are yours to shape; I just ask that any post be clearly marked as a paid partnership / #ad per FTC rules, and that we describe the app only as a private tracking and progress-journal tool (no medical or results claims). Tracking link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "glp1_creator",
+    "label": "GLP-1 creator",
+    "channel": "instagram/tiktok",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I run a simple affiliate program for PepTrack and thought of you. You'd get a personal code {{CODE}} and link {{LINK}}, and a commission on installs/subscriptions it drives. Two firm rules: every promotional post must include clear #ad / affiliate disclosure per FTC guidance, and we only describe PepTrack as a private tracking and progress-journal tool \u2014 no medical, dosing, or results claims. Want the details? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 founder of PepTrack here. It's a private iOS app for tracking injections, reminders, side effects, and progress in one place. Felt relevant to your channel. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337). It's a local-first iOS app for privately logging injections, reminders, weight, side effects, and progress notes \u2014 strictly an organization and progress-journal tool, no advice or claims. Your audience clearly values careful, accurate information, which is why I wanted to reach out directly rather than blast a generic pitch. Could I send you a free link to evaluate it yourself? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack. It's a clean iOS app for keeping injections, reminders, side effects, and progress all in one private place, on-device. I respect how precise you are with your content, so I'd genuinely value your eyes on it \u2014 what's solid, what's missing. No obligation at all. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, circling back once in case my note slipped past \u2014 no pressure. Short version: PepTrack is a private, on-device iOS app for tracking injections, reminders, and progress. Happy to send a free link if you'd like to try it. If it's not a fit, just say the word and I'll stop here.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "follow_up_2",
+    "body": "Hey {{NAME}} \u2014 final note from me. If PepTrack ever seems worth a mention to your audience, it's here anytime: https://apps.apple.com/app/id6772598337. Otherwise I'll leave you be and won't follow up again. Appreciate your time either way.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "thank_you",
+    "body": "Thanks so much, {{NAME}} \u2014 really appreciate you taking the time to look. Your perspective carries weight with me, so if you spotted anything off or missing, I'd love the candid feedback. Grateful for it.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "not_interested",
+    "body": "Understood, {{NAME}} \u2014 thanks for letting me know. I won't follow up. The App Store link is always there if anything changes down the line. Best of luck with the channel.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would a paid partnership around PepTrack interest you \u2014 a private iOS app for tracking injections, reminders, and progress? You shape the format and rate. My only requirements: clear paid-partnership / #ad disclosure per FTC rules, and we describe it solely as a private tracking and progress-journal tool (no medical, dosing, or results claims; brand drug names off-limits). Tracking link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "peptide_creator",
+    "label": "Peptide creator",
+    "channel": "youtube/instagram",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I'd love to offer you a spot in PepTrack's affiliate program. You'd get a code {{CODE}} and link {{LINK}}, plus commission on what it drives. Non-negotiables: every promo includes clear #ad / affiliate disclosure (FTC), and we only ever describe PepTrack as a private tracking and progress-journal tool \u2014 no medical, dosing, or results claims, no brand drug names. Want the specifics? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 I'm the founder of PepTrack, a private iOS app your clients could use to track injections, reminders, weight, and progress in one place. Thought it might fit how you coach. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337). It's a private, local-first iOS app where someone can keep injections, reminders, weight, side effects, and progress notes organized in one place between check-ins. It's purely an organization and progress-journal tool \u2014 it doesn't give advice or make any claims, so it stays squarely in your lane as the coach. If it sounds useful for your clients, I'm glad to send a free link so you can evaluate it first. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack. It's a simple iOS app clients can use to keep their reminders, weight, and progress notes in one private spot, so they show up to your sessions more organized. Everything stays on their phone. I'd love your read as someone who works with people on this daily \u2014 does it actually help, or am I missing something? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, just nudging my earlier note up in case it got lost in the inbox. Quick recap: PepTrack is a private iOS app clients can use to track reminders, weight, and progress between sessions. Happy to send a free link to try. If it's not a fit, just let me know and I'll leave it there.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "follow_up_2",
+    "body": "Hi {{NAME}} \u2014 last note from me. If PepTrack ever seems like a handy companion for your clients, it's here anytime: https://apps.apple.com/app/id6772598337. Otherwise I won't follow up again. Thanks for your time regardless.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 I really appreciate you taking a look and sharing your take. Coaches see the day-to-day reality, so your feedback on what would actually help your clients is exactly what I want to hear.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "not_interested",
+    "body": "Completely understand, {{NAME}} \u2014 thanks for the reply. I won't follow up. If it ever feels relevant for your clients down the road, the App Store link is there anytime. All the best with your coaching.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would you be open to a paid partnership where you introduce PepTrack to your audience as a private tool for tracking reminders, weight, and progress? You set terms. Two conditions: any public promotion clearly marked as a paid partnership / #ad per FTC rules, and we describe the app only as a private tracking and progress-journal tool \u2014 never as something that causes weight loss or replaces your coaching. Link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "weight_loss_coach",
+    "label": "Weight-loss coach",
+    "channel": "email/dm",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I'd love to offer you a PepTrack affiliate code {{CODE}} and link {{LINK}}, with commission on installs/subscriptions it drives. The rules: any public recommendation includes clear #ad / affiliate disclosure (FTC), and we always describe PepTrack as a private tracking and progress-journal tool \u2014 no weight-loss, medical, or results claims. Sharing it 1:1 with clients is fine too. Want the details? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 I'm Jordan, founder of PepTrack, a private iOS app patients can use to track injections, reminders, and progress in one place. It's a tracking/journal tool, not medical software. Thought it might be a useful companion to point patients to. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337). It's a private, local-first iOS app where patients can keep injections, reminders, weight, side effects, and progress notes organized in one place between visits. To be clear up front: PepTrack is purely a personal organization and progress-journal tool \u2014 it is not a medical device, not clinical decision support, makes no medical claims, and never replaces a clinician's guidance. Some clinics like having a simple, private companion to point patients to. If that's of interest, I'm happy to share more. If this isn't for you, no worries \u2014 just reply and I won't follow up.\n\nJordan, Founder, PepTrack \u2014 Elite Research USA. Reply with 'unsubscribe' and I won't contact you again.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "friendly_founder",
+    "body": "Hi {{NAME}} \u2014 Jordan here, founder of PepTrack. I built it as a quiet, private iOS app where people can keep their reminders, weight, and progress notes in one place between appointments \u2014 everything stays on their device. It's strictly an organization and journal tool, not medical software, and it doesn't replace your team's care. I'd genuinely value an operator's eyes on it. Open to a quick look? If this isn't for you, no worries \u2014 just reply and I won't follow up.\n\nJordan, Founder, PepTrack. Reply 'unsubscribe' to opt out.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, gently following up on my earlier note in case it got buried. Recap: PepTrack is a private iOS app patients can use to track reminders, weight, and progress between visits \u2014 an organization/journal tool, not medical software. Happy to share more whenever useful. If it's not relevant, just let me know and I'll stop here.\n\nJordan, Founder, PepTrack. Reply 'unsubscribe' to opt out.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "follow_up_2",
+    "body": "Hi {{NAME}} \u2014 last note from me. If a private patient-facing tracking companion ever becomes relevant, PepTrack is here: https://apps.apple.com/app/id6772598337. Otherwise I won't follow up again. Appreciate your time.\n\nJordan, Founder, PepTrack. Reply 'unsubscribe' to opt out.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 I appreciate you taking the time to review it. Clinic operators understand the patient experience better than anyone, so if you have feedback on how a private tracking companion could be more useful (within its lane as a non-medical tool), I'd welcome it.\n\nJordan, Founder, PepTrack.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "not_interested",
+    "body": "Understood, {{NAME}} \u2014 thank you for the reply, and I won't follow up. If a private patient-facing tracking tool becomes relevant later, the App Store link is there anytime. Wishing your team well.\n\nJordan, Founder, PepTrack.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would your clinic be open to a co-marketing arrangement where you mention PepTrack to patients as an optional private tool for tracking reminders, weight, and progress? Terms are flexible. Required: any public/paid promotion is clearly disclosed per FTC rules, and all materials describe PepTrack only as a non-medical organization and progress-journal tool \u2014 no treatment, outcome, or results claims, and no implication it replaces care. Link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.\n\nJordan, Founder, PepTrack. Reply 'unsubscribe' to opt out.",
+    "is_template": true
+  },
+  {
+    "audience_key": "telehealth_clinic",
+    "label": "Telehealth clinic",
+    "channel": "email",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, if it fits your clinic's policies, we offer an affiliate code {{CODE}} and link {{LINK}} with commission on installs/subscriptions. Strict conditions given your regulated setting: every public mention carries clear #ad / affiliate disclosure (FTC), and all language describes PepTrack solely as a non-medical private tracking and progress-journal tool \u2014 no treatment, dosing, outcome, or results claims, and no suggestion it replaces clinical care. Happy to share specifics. If this isn't for you, no worries \u2014 just reply and I won't follow up.\n\nJordan, Founder, PepTrack. Reply 'unsubscribe' to opt out.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 I'm the founder of PepTrack, a private iOS app for tracking injections, reminders, and progress. I'd never post in your group without your say-so. Would you be open to me sharing it with members, and if so, how would you like me to do it? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337) \u2014 a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place. I'm reaching out to you as the admin first, because I'd never post in your group without permission and I want to respect your rules. If you think members would find a private tracking/journal tool useful, I'd welcome your guidance on whether and how to share it (or you sharing it, if you'd prefer). Totally fine if it's not a fit. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack, a simple private iOS app for keeping injections, reminders, and progress in one place (all on-device). Before anything else: I won't post in your group without your blessing. You know your members and your rules far better than I do, so I'd rather ask you directly \u2014 is this something they'd find useful, and how would you want it handled, if at all? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, just gently following up on my note \u2014 no rush and no posting from me unless you approve it. Recap: PepTrack is a private iOS app for tracking injections, reminders, and progress, and I wanted your read as the admin on whether it'd be welcome for members. If it's not a fit for the group, just say so and I'll leave it there.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "follow_up_2",
+    "body": "Hi {{NAME}} \u2014 last note from me. If you ever think a private tracking tool would be welcome for your members, I'm here: https://apps.apple.com/app/id6772598337 \u2014 and only ever with your approval first. Otherwise I won't follow up again. Thanks for everything you do to run the group.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 I really appreciate you considering it and for protecting your members' space the way you do. However you'd like to handle it (or not), I'll follow your lead and your rules completely.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "not_interested",
+    "body": "Completely understand, {{NAME}} \u2014 thanks for the reply, and I won't post or follow up. I respect that it's your group and your call. Wishing you and the community all the best.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would you be open to a paid arrangement to feature PepTrack to your group as a private tracking/journal tool \u2014 entirely on your terms and only with content you approve? Conditions: any sponsored post is clearly disclosed as paid / #ad per FTC and Meta rules, and we describe the app only as a private tracking and progress-journal tool (no medical or results claims). Link: {{LINK}}. I won't post anything without your sign-off. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "fb_group_admin",
+    "label": "Facebook group admin",
+    "channel": "messenger/email",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, if you're ever inclined to share tools with your members, I can offer a PepTrack affiliate code {{CODE}} and link {{LINK}} with commission on what it drives. Firm rules: any post is clearly marked #ad / affiliate per FTC and Meta policy, we only describe PepTrack as a private tracking and progress-journal tool (no medical/results claims), and nothing gets posted without your approval and within your group rules. Want details? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "short",
+    "body": "Hi mods \u2014 I'm the founder of PepTrack, a private iOS app for tracking injections, reminders, and progress. I won't post or comment promotionally without your permission. Is there an approved way to share it with your community, or would you prefer I don't? If not, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "professional",
+    "body": "Hi mods, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337) \u2014 a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place. I'm messaging modmail first because I respect your rules and don't want to break your self-promotion policy. If members would find a private tracking/journal tool genuinely useful, is there an approved way to share it (a specific thread, flair, or format you allow)? If self-promo isn't permitted, I completely understand and won't post. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "friendly_founder",
+    "body": "Hey mods \u2014 Jordan here, I built PepTrack, a simple private iOS app for keeping injections, reminders, and progress in one place (everything stays on-device). I know how much marketing spam you have to filter, so I'm coming to you first rather than posting. If there's a rule-compliant way you'd be open to me sharing it \u2014 or if you'd rather I don't \u2014 just let me know and I'll fully respect that. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "follow_up_1",
+    "body": "Hi mods, just gently following up on my modmail \u2014 no posting from me unless you approve it. Recap: PepTrack is a private iOS app for tracking injections, reminders, and progress, and I wanted to ask the right way to share it (if at all) without breaking your self-promo rules. If it's a no, that's totally fine \u2014 just say so and I'll leave it there.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "follow_up_2",
+    "body": "Hi mods \u2014 last note from me. If you ever decide a private tracking tool would be welcome here, I'm at https://apps.apple.com/app/id6772598337 and will only share it the way your rules allow. Otherwise I won't follow up again. Thanks for keeping the community clean \u2014 genuinely.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "thank_you",
+    "body": "Thank you, mods \u2014 I really appreciate you taking the time, and for moderating the way you do. Whatever you decide, I'll follow your rules and your guidance to the letter. Grateful for the reply.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "not_interested",
+    "body": "Completely understood \u2014 thanks for the reply, and I won't post or follow up. I respect that it's your community and your rules. Appreciate the work you put into keeping it useful for members.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "partnership_proposal",
+    "body": "Hi mods, if your subreddit ever does approved sponsorships or vendor posts, would PepTrack be a candidate \u2014 described purely as a private tracking/journal tool? Conditions: any post is clearly disclosed as sponsored / #ad per FTC and Reddit rules, we make no medical or results claims, and nothing goes up without your explicit approval and within your format. If sponsorships aren't allowed here, I fully understand. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "reddit_moderator",
+    "label": "Reddit moderator",
+    "channel": "modmail",
+    "variant": "affiliate_proposal",
+    "body": "Hi mods, I know many subreddits prohibit affiliate links, and I'll defer entirely to your rules. If yours permits them with disclosure, I can offer a PepTrack code {{CODE}} and link {{LINK}} (commission on what it drives), shared only the way you approve, always with clear #ad / affiliate disclosure, and only ever describing PepTrack as a private tracking and progress-journal tool (no medical/results claims). If affiliate content isn't allowed, no problem at all. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 it's Jordan at Elite Research USA. We built PepTrack, a private iOS app to track injections, reminders, and progress in one place: https://apps.apple.com/app/id6772598337. Thought you'd want first look. Reply STOP to opt out of texts.",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "professional",
+    "body": "Hi {{NAME}},\n\nThank you for being an Elite Research USA customer. I wanted to share something we built: PepTrack, a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place \u2014 purely an organization and progress-journal tool, no claims attached. If you'd like to try it: https://apps.apple.com/app/id6772598337.\n\nNo obligation at all \u2014 just thought it might be useful to you.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nYou're receiving this because you opted into updates from Elite Research USA. Unsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "friendly_founder",
+    "body": "Hi {{NAME}},\n\nJordan here from Elite Research USA \u2014 wanted to give you a heads-up as one of our customers. I've been building PepTrack, a quiet little iOS app that keeps your injections, reminders, weight, and progress notes all in one private place (everything stays on your phone). Here it is if you're curious: https://apps.apple.com/app/id6772598337.\n\nWould genuinely love to know what you think.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nOptional updates from Elite Research USA. Unsubscribe anytime: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}},\n\nJust circling back in case my last note got buried \u2014 PepTrack is the private iOS app we built for tracking injections, reminders, and progress in one place: https://apps.apple.com/app/id6772598337. No pressure at all; only sharing because I thought you'd find it handy.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nUnsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "follow_up_2",
+    "body": "Hi {{NAME}},\n\nLast note on this from me \u2014 if PepTrack ever sounds useful, it's right here: https://apps.apple.com/app/id6772598337. Otherwise I'll leave your inbox alone. Thanks for being a customer.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nUnsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "thank_you",
+    "body": "Hi {{NAME}},\n\nThank you for trying PepTrack \u2014 it means a lot coming from an existing customer. If anything felt clunky or you'd want a feature added, just reply and tell me; I read every note.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nUnsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "not_interested",
+    "body": "Hi {{NAME}},\n\nNo problem at all \u2014 thanks for letting me know, and I won't send more about PepTrack. You'll still get your usual Elite Research USA service as always. The app link is here anytime if that ever changes: https://apps.apple.com/app/id6772598337.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nUnsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}},\n\nSince you're an Elite Research USA customer who clearly cares about staying organized, would you be open to helping us spread the word about PepTrack as a paid partner? You'd shape the terms. The rules: any public post is clearly disclosed as a paid partnership / #ad per FTC, and we describe PepTrack only as a private tracking and progress-journal tool (no medical or results claims). Tracking link: {{LINK}}.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nUnsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "elite_research_customer",
+    "label": "Existing Elite Research USA customer",
+    "channel": "email/sms",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}},\n\nAs a valued Elite Research USA customer, I'd like to offer you a PepTrack affiliate code {{CODE}} and link {{LINK}}, with commission on installs/subscriptions you drive. Conditions: any public promotion includes clear #ad / affiliate disclosure (FTC), and we always describe PepTrack as a private tracking and progress-journal tool \u2014 no medical or results claims.\n\nJordan, Elite Research USA\n{{MAILING_ADDRESS}}\nUnsubscribe: {{UNSUBSCRIBE_LINK}}",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 I'm Jordan, founder of PepTrack, a private iOS app for tracking injections, reminders, and progress in one place. Might be a clean fit for your readers. Open to a short blurb? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337) \u2014 a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place. It's strictly an organization and progress-journal tool, with no medical or results claims, which I know matters for your editorial standards. If it fits your audience, I'd be glad to send a tight, ready-to-run blurb (sponsored or organic, your call). If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack, a simple private iOS app for keeping injections, reminders, and progress all in one place (on-device). I love how clean your newsletter is, so I'd only want to be in it if it genuinely fits. Happy to draft a short blurb you can edit freely, or just send you a free link to judge it yourself first. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, nudging my earlier note up in case it slipped by. Quick recap: PepTrack is a private iOS app for tracking injections, reminders, and progress \u2014 and I offered a ready-to-run blurb if it fits your readers. Happy to send it over whenever. If it's not a fit, just say so and I'll leave it there.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "follow_up_2",
+    "body": "Hi {{NAME}} \u2014 last note from me. If PepTrack ever fits an issue, the link's here: https://apps.apple.com/app/id6772598337, and I can send a clean blurb in minutes. Otherwise I won't follow up again. Thanks for the great newsletter either way.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 really appreciate you considering it and for caring about what goes in front of your readers. If you'd like the blurb tightened, reworded, or fact-checked against the app's actual scope, just tell me and I'll turn it around fast.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "not_interested",
+    "body": "Completely understand, {{NAME}} \u2014 thanks for the reply, and I won't follow up. If PepTrack ever fits a future issue, the App Store link is there anytime. Keep up the great work with the newsletter.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would you be open to a paid placement for PepTrack \u2014 a private iOS app for tracking injections, reminders, and progress? You set rate and format. Requirements: the placement is clearly labeled sponsored / #ad per FTC, and copy describes PepTrack only as a private tracking and progress-journal tool (no medical or results claims). Tracking link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "newsletter_owner",
+    "label": "Newsletter owner",
+    "channel": "email",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I can offer a PepTrack affiliate code {{CODE}} and link {{LINK}} with commission on installs/subscriptions your readers drive. Rules: any inclusion is clearly disclosed as affiliate / #ad per FTC, and copy always describes PepTrack as a private tracking and progress-journal tool \u2014 no medical or results claims. Want the details and a ready-to-run blurb? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 I'm Jordan, founder of PepTrack, a private iOS app for tracking injections, reminders, and progress in one place. Felt relevant to your channel. Open to a free look? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337) \u2014 a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place. It's purely an organization and progress-journal tool (no claims), which keeps it easy and safe to feature honestly. Your audience trusts your recommendations, so I wanted to reach out directly. Could I send a free link so you can try it before deciding anything? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack, a clean private iOS app for keeping injections, reminders, and progress all in one place (on-device). I've watched a bunch of your videos and the trust you've built with your audience is real. No ask today \u2014 I'd just love for you to try it and tell me honestly what works and what doesn't. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, circling back once in case my note got buried \u2014 inboxes are brutal. Recap: PepTrack is a private iOS app for tracking injections, reminders, and progress. Happy to send a free link to try, no strings. If it's not a fit, just let me know and I'll leave it there.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "follow_up_2",
+    "body": "Hi {{NAME}} \u2014 last note from me. If PepTrack ever feels worth a mention to your audience, it's here anytime: https://apps.apple.com/app/id6772598337. Otherwise I won't follow up again. Appreciate the work you put into your channel.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 genuinely grateful you took the time to look. If anything felt off or missing, I'd much rather hear it straight. Your honest read is exactly what makes the app better.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "not_interested",
+    "body": "Totally understand, {{NAME}} \u2014 thanks for the reply, and I won't follow up. If your plans ever change, the App Store link is there anytime. Best of luck with the channel.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would a sponsored integration for PepTrack interest you \u2014 a private iOS app for tracking injections, reminders, and progress? You shape format and rate. Requirements: the video includes clear paid-promotion / #ad disclosure (and YouTube's paid-promotion setting) per FTC, and we describe PepTrack only as a private tracking and progress-journal tool \u2014 no medical or results claims, no brand drug names. Tracking link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "youtube_creator",
+    "label": "YouTube creator",
+    "channel": "email",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I'd love to offer you a PepTrack affiliate code {{CODE}} and link {{LINK}} for your description box, with commission on installs/subscriptions it drives. Firm rules: clear #ad / affiliate disclosure on-screen and in the description per FTC, and we only describe PepTrack as a private tracking and progress-journal tool \u2014 no medical or results claims, no brand drug names. Want the details? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 founder of PepTrack here. It's a private iOS app for tracking injections, reminders, and progress in one place. Felt right for your audience. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337) \u2014 a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place. It's purely an organization and progress-journal tool, no claims, so it's easy to show honestly. Your content reaches exactly the people who'd find it useful. Could I send a free link so you can try it first? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I made PepTrack, a clean private iOS app for keeping injections, reminders, and progress in one place (stays on your phone). Love how real your videos feel. No ask right now \u2014 I'd just love you to try it and tell me what's missing. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, floating my note back up in case it got lost in the DMs. Recap: PepTrack is a private iOS app for tracking injections, reminders, and progress. Happy to send a free link to try. If it's not a fit, just say so and I'll stop here.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "follow_up_2",
+    "body": "Hey {{NAME}} \u2014 last one from me. If PepTrack ever feels worth showing your audience, it's here anytime: https://apps.apple.com/app/id6772598337. Otherwise I'll leave you to it and won't follow up again. Thanks either way.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 really appreciate you taking a look and the kind words. If anything felt clunky or missing, tell me straight; that feedback is gold to me.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "not_interested",
+    "body": "All good, {{NAME}} \u2014 thanks for the reply, and I won't follow up. If things ever change, the App Store link is there anytime. Keep making great stuff.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would a paid partnership for PepTrack work for you \u2014 a private iOS app for tracking injections, reminders, and progress? You shape the format and rate. Requirements: use TikTok's branded-content toggle + clear #ad disclosure per FTC, and we describe PepTrack only as a private tracking and progress-journal tool \u2014 no medical or results claims, no brand drug names. Tracking link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "tiktok_creator",
+    "label": "TikTok creator",
+    "channel": "dm/email",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I'd love to set you up with a PepTrack affiliate code {{CODE}} and link {{LINK}}, with commission on installs/subscriptions it drives. Firm rules: branded-content toggle on + clear #ad / affiliate disclosure per FTC, and we only ever describe PepTrack as a private tracking and progress-journal tool \u2014 no medical or results claims, no brand drug names. Want the details? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "short",
+    "body": "Hi {{NAME}} \u2014 founder of PepTrack here. It's a private iOS app for tracking injections, reminders, and progress in one place. Thought it'd resonate with your audience. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "professional",
+    "body": "Hi {{NAME}}, I'm Jordan, founder of PepTrack (https://apps.apple.com/app/id6772598337) \u2014 a private, local-first iOS app for tracking injections, reminders, weight, side effects, and progress in one place. It's purely an organization and progress-journal tool (no claims), and the views are clean enough to show honestly on camera. Your audience is exactly who'd find it useful. Could I send a free link so you can try it first? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "friendly_founder",
+    "body": "Hey {{NAME}} \u2014 Jordan here, I built PepTrack, a simple private iOS app for keeping injections, reminders, and progress all in one place (everything stays on your phone). Really like the honest tone of your feed. No ask today \u2014 I'd just love for you to try it and tell me what's missing. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "follow_up_1",
+    "body": "Hi {{NAME}}, nudging my note back up in case it got buried in the DMs. Recap: PepTrack is a private iOS app for tracking injections, reminders, and progress. Happy to send a free link to try. If it's not a fit, just let me know and I'll leave it there.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "follow_up_2",
+    "body": "Hey {{NAME}} \u2014 last note from me. If PepTrack ever feels worth sharing with your audience, it's here anytime: https://apps.apple.com/app/id6772598337. Otherwise I won't follow up again. Thanks for your time either way.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "thank_you",
+    "body": "Thank you, {{NAME}} \u2014 really appreciate you taking a look and the kind note. If anything felt off or missing, I'd rather hear it straight; that's how the app gets better.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "not_interested",
+    "body": "Totally understand, {{NAME}} \u2014 thanks for the reply, and I won't follow up. If your plans ever change, the App Store link is there anytime. Wishing you the best with your content.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "partnership_proposal",
+    "body": "Hi {{NAME}}, would a paid partnership for PepTrack interest you \u2014 a private iOS app for tracking injections, reminders, and progress? You shape format and rate. Requirements: use Instagram's Paid Partnership label + clear #ad disclosure per FTC, and we describe PepTrack only as a private tracking and progress-journal tool \u2014 no medical or results claims, no brand drug names. Tracking link: {{LINK}}. If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  },
+  {
+    "audience_key": "instagram_creator",
+    "label": "Instagram creator",
+    "channel": "dm/email",
+    "variant": "affiliate_proposal",
+    "body": "Hi {{NAME}}, I'd love to offer you a PepTrack affiliate code {{CODE}} and link {{LINK}} (link sticker works well in Stories), with commission on installs/subscriptions it drives. Firm rules: Paid Partnership label / clear #ad / affiliate disclosure per FTC, and we only describe PepTrack as a private tracking and progress-journal tool \u2014 no medical or results claims, no brand drug names. Want the details? If this isn't for you, no worries \u2014 just reply and I won't follow up.",
+    "is_template": true
+  }
+]
