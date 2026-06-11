@@ -6,20 +6,37 @@ import { supabaseAdmin } from "./supabase";
 const PRIORITY_THRESHOLD = 70;
 const MAX_PER_RUN = 25;
 
+// Keys are lowercased; lookup normalizes p.channel to lowercase so casing/spacing
+// in the seed data can't silently fall through to the wrong template.
 const CHANNEL_TO_AUDIENCE: Record<string, string> = {
-  "GLP-1 Facebook groups": "fb_group_admin",
-  "Tirzepatide Facebook groups": "fb_group_admin",
-  "Semaglutide Facebook groups": "fb_group_admin",
-  "Peptide communities": "fb_group_admin",
-  "Reddit communities": "reddit_moderator",
-  "Elite Research USA customers": "elite_research_customer",
-  "Telehealth clinics": "telehealth_clinic",
-  "Weight loss coaches": "weight_loss_coach",
-  "Peptide YouTube creators": "peptide_creator",
-  "GLP-1 TikTok creators": "tiktok_creator",
-  "GLP-1 Instagram creators": "instagram_creator",
-  "Health & wellness newsletters": "newsletter_owner",
+  "glp-1 facebook groups": "fb_group_admin",
+  "tirzepatide facebook groups": "fb_group_admin",
+  "semaglutide facebook groups": "fb_group_admin",
+  "peptide communities": "reddit_moderator",
+  "reddit communities": "reddit_moderator",
+  "elite research usa customers": "elite_research_customer",
+  "telehealth clinics": "telehealth_clinic",
+  "weight-loss coaches": "weight_loss_coach",
+  "peptide youtube creators": "peptide_creator",
+  "glp-1 tiktok creators": "tiktok_creator",
+  "glp-1 instagram creators": "instagram_creator",
+  "health & wellness newsletters": "newsletter_owner",
 };
+const audienceForChannel = (channel: string) =>
+  CHANNEL_TO_AUDIENCE[(channel || "").toLowerCase().trim()] || "glp1_creator";
+
+// Turn a messy prospect name into a clean greeting name: strip "(...)" descriptors,
+// " -- descriptor" suffixes, and known prefixes (e.g. "GLP-1 Telehealth:").
+export function cleanName(raw: string | null | undefined): string {
+  if (!raw) return "there";
+  const s = raw
+    .replace(/\s*\([^)]*\)/g, "")
+    .replace(/\s+--.*$/, "")
+    .replace(/^(GLP-1 Telehealth|FB search strategy|FB search|TikTok discovery|IG discovery):\s*/i, "")
+    .replace(/^[\s,]+|[\s,]+$/g, "")
+    .trim();
+  return s || "there";
+}
 
 const isoDaysAgo = (n: number) => { const d = new Date(); d.setDate(d.getDate() - n); return d.toISOString(); };
 const todayDate = () => new Date().toISOString().slice(0, 10);
@@ -52,16 +69,17 @@ export async function runAutomation(): Promise<AutomationResult> {
     .eq("status", "New").gte("priority_score", PRIORITY_THRESHOLD)
     .order("priority_score", { ascending: false }).limit(MAX_PER_RUN);
   for (const p of fresh || []) {
-    const audience = CHANNEL_TO_AUDIENCE[p.channel as string] || "glp1_creator";
+    const audience = audienceForChannel(p.channel as string);
     const t = tmplFor(audience);
     if (!t) continue;
-    const body = (t.body || "").replace(/\{\{NAME\}\}/g, p.name || "there");
+    const name = cleanName(p.name);
+    const body = (t.body || "").replace(/\{\{NAME\}\}/g, name);
     await sb.from("outreach_messages").insert({
       audience_key: audience, label: t.label, channel: t.channel, variant: t.variant,
       body, is_template: false, prospect_id: p.id, status: "ready", notes: "auto-drafted by automation",
     });
     await sb.from("tasks").insert({
-      title: `Review & send draft to ${p.name}`, kind: "draft_outreach", prospect_id: p.id,
+      title: `Review & send draft to ${name}`, kind: "draft_outreach", prospect_id: p.id,
       status: "open", priority: "high", due_date: todayDate(), auto_generated: true,
       rule: "Score ≥ threshold → draft outreach → ready for approval",
     });
