@@ -45,7 +45,7 @@ export async function getApprovalQueue(): Promise<OutreachMessage[]> {
   }
   const { data } = await sb
     .from("outreach_messages")
-    .select("*")
+    .select("*, prospect:prospects(name,email,social_handle,platform_url,public_contact_method,channel)")
     .eq("is_template", false)
     .in("status", ["draft", "ready"]);
   return (data as OutreachMessage[]) || [];

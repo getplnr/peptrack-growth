@@ -23,3 +23,13 @@ export async function setMessageBody(id: string, body: string): Promise<{ ok: bo
   revalidatePath("/approvals");
   return error ? { ok: false, reason: error.message } : { ok: true };
 }
+
+/** Save a found public email onto a prospect (so future drafts have it). */
+export async function setProspectContact(prospectId: string, email: string): Promise<{ ok: boolean; reason?: string }> {
+  const sb = supabaseAdmin();
+  if (!sb) return { ok: false, reason: "Supabase not configured" };
+  const { error } = await sb.from("prospects").update({ email, contact_status: "found" }).eq("id", prospectId);
+  revalidatePath("/approvals");
+  revalidatePath("/prospects");
+  return error ? { ok: false, reason: error.message } : { ok: true };
+}

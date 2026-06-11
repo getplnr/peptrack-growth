@@ -58,11 +58,17 @@ export interface Campaign {
   follow_up_schedule?: string | null; kpis?: string[]; status?: string | null;
 }
 
+export interface ProspectContact {
+  name?: string | null; email?: string | null; social_handle?: string | null;
+  platform_url?: string | null; public_contact_method?: string | null; channel?: string | null;
+}
+
 export interface OutreachMessage {
   id: string; audience_key?: string | null; label?: string | null; channel?: string | null;
   variant?: string | null; body: string; is_template?: boolean;
   prospect_id?: string | null; campaign_id?: string | null;
   status?: string; approved_by?: string | null; sent_at?: string | null; notes?: string | null;
+  prospect?: ProspectContact | null;
 }
 
 export interface ContentItem {
