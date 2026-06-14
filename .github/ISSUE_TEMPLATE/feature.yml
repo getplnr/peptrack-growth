@@ -1,0 +1,63 @@
+name: ✨ Feature / Product Request
+description: New capability or product change. Will be scored via the prioritization framework.
+title: "[Feature]: "
+labels: ["feature", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Features are scored in `docs/product-prioritization-framework.md`. Fill the impact inputs so this can be ranked.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage, Organization/Tooling]
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem / user need
+      description: Who has this problem, and what does it cost them today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Success metric
+      description: The single metric that proves this worked. Must be measurable BEFORE GA (see product-standards.md).
+    validations:
+      required: true
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Primary impact lever
+      options: [Revenue, Conversion, Retention, Customer Value, Strategic, Enterprise readiness]
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / explicitly out of scope
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks / compliance considerations
+      description: e.g. TCPA/CAN-SPAM (TALNT outreach), Apple Kids (RewardEd), no medical claims (PepTrack), Apple 3.1.1 IAP.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit
+      options:
+        - label: I defined a measurable success metric.
+          required: true
+        - label: I searched existing issues and roadmaps.
+          required: true

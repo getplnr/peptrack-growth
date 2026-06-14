@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🔒 Report a security vulnerability (private)
+    url: https://github.com/getplnr/organization/security/advisories/new
+    about: Do NOT open a public issue for exploitable vulnerabilities. Use a private security advisory. See docs/security-standards.md.
+  - name: 📚 Engineering & product standards
+    url: https://github.com/getplnr/organization/tree/main/docs
+    about: Read the org standards (engineering, security, UI/UX, release, quality) before filing.
+  - name: 🧭 Operating model (Manus + Claude + GitHub + Vercel)
+    url: https://github.com/getplnr/organization/blob/main/docs/manus-claude-operating-model.md
+    about: How product, engineering, and deploys flow across the portfolio.

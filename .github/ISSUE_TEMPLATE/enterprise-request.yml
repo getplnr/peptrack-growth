@@ -1,0 +1,50 @@
+name: 🏢 Enterprise Request
+description: Enterprise-readiness capability — security, compliance, SSO, SLAs, procurement, or a named-account requirement.
+title: "[Enterprise]: "
+labels: ["Enterprise", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Enterprise requests gate large deals and institutional readiness. Capture the dollar driver and the blocking requirement precisely.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage]
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - SSO / SAML / SCIM
+        - Audit log / access controls (RBAC)
+        - Data residency / retention / DPA
+        - Compliance (SOC 2, GDPR, CCPA, HIPAA-adjacent)
+        - SLA / uptime / support tier
+        - Security questionnaire / vendor review
+        - Procurement / invoicing / MSA
+        - Integration (HRIS, DMS, carrier, ERP)
+    validations:
+      required: true
+  - type: textarea
+    id: requirement
+    attributes:
+      label: The requirement
+      description: Exactly what the enterprise buyer needs, and the standard it must meet.
+    validations:
+      required: true
+  - type: input
+    id: deal
+    attributes:
+      label: Associated deal / account + ARR at stake
+      description: Helps prioritize by revenue impact. Use a range if exact figure is sensitive.
+  - type: dropdown
+    id: blocking
+    attributes:
+      label: Is this blocking a deal?
+      options: [Yes — hard blocker, Yes — soft blocker, "No — competitive differentiator", No — future-proofing]
+    validations:
+      required: true
