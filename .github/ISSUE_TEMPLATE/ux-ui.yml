@@ -1,0 +1,52 @@
+name: 🎨 UX / UI Issue
+description: Usability, visual, accessibility, or conversion problem. Often sourced from a Manus UX audit.
+title: "[UX/UI]: "
+labels: ["UX", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Standards: `docs/ui-ux-standards.md`. UX research is typically produced by Manus (`docs/manus-claude-operating-model.md`).
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage]
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Issue type
+      options: [Usability, Visual / design-system, Accessibility (WCAG), Conversion / funnel, Mobile responsiveness, Copy / tone]
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Screen / route / component
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What's wrong and why it matters
+      description: Tie to a user or business outcome (drop-off, confusion, a11y barrier, brand inconsistency).
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Screenshots, recordings, Manus audit link, funnel data, axe/Lighthouse output.
+  - type: dropdown
+    id: a11y
+    attributes:
+      label: Accessibility impact
+      options: [None, Minor, Blocks a user group, WCAG 2.1 AA failure]
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed fix (if known)

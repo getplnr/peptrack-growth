@@ -1,0 +1,62 @@
+name: 🔒 Security Issue (non-exploitable / hardening)
+description: Hardening, policy, or non-exploitable security work. For EXPLOITABLE vulnerabilities use a private advisory instead.
+title: "[Security]: "
+labels: ["Security", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ⛔ **If this is an exploitable vulnerability (active data exposure, auth bypass, secret leak), STOP.**
+        Do not file a public issue — open a private security advisory and follow `docs/security-standards.md` incident response.
+        Use this template only for hardening, policy gaps, and non-exploitable findings.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage, Organization/Tooling]
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Secrets / key management
+        - AuthN / AuthZ
+        - Supabase RLS / data access
+        - Dependency / supply chain
+        - Input validation / injection
+        - PII / data handling
+        - Compliance (TCPA, CAN-SPAM, Apple privacy)
+        - Infrastructure / config
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      options: [P0-Critical, P1-High, P2-Medium, P3-Low]
+    validations:
+      required: true
+  - type: textarea
+    id: finding
+    attributes:
+      label: Finding
+      description: Describe the weakness. Reference file paths, NOT secret values.
+    validations:
+      required: true
+  - type: textarea
+    id: remediation
+    attributes:
+      label: Recommended remediation
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Confirm
+      options:
+        - label: This is NOT an actively exploitable vulnerability (those go to a private advisory).
+          required: true
+        - label: This issue contains no secret values, tokens, or live PII.
+          required: true

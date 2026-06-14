@@ -1,0 +1,50 @@
+name: 📈 Growth Initiative
+description: Acquisition, activation, conversion, retention, or monetization experiment.
+title: "[Growth]: "
+labels: ["Growth", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Growth work is hypothesis-driven. Compliance still applies: TALNT outreach is TCPA/CAN-SPAM gated; PepTrack makes no medical claims; never auto-send (draft-first).
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage]
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Funnel stage
+      options: [Acquisition, Activation, Conversion, Retention, Referral, Revenue / monetization]
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis
+      description: "We believe [change] will cause [outcome] for [segment], measured by [metric]."
+    validations:
+      required: true
+  - type: input
+    id: metric
+    attributes:
+      label: Primary metric + current baseline
+    validations:
+      required: true
+  - type: textarea
+    id: experiment
+    attributes:
+      label: Experiment design
+      description: What you'll build/ship, audience, duration, success threshold.
+    validations:
+      required: true
+  - type: textarea
+    id: compliance
+    attributes:
+      label: Compliance check
+      description: Consent/opt-out, platform policy (Apple/Meta), no medical or earnings claims, draft-first review.
+    validations:
+      required: true

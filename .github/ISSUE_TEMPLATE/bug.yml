@@ -1,0 +1,74 @@
+name: 🐛 Bug Report
+description: A defect in shipped behavior — something works incorrectly.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for filing. A good bug report is reproducible and scoped. See `docs/quality-framework.md` for the quality bar.
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage, Organization/Tooling]
+    validations:
+      required: true
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: "P0 = production down / data loss / security / compliance. P1 = broken core flow. P2 = degraded. P3 = minor."
+      options: [P0-Critical, P1-High, P2-Medium, P3-Low]
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Surface
+      options: [Web, Mobile (iOS), Backend/API, Database, Infrastructure, CI/Build]
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: URL / build number / commit SHA / device / browser
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs / screenshots / Sentry link
+      description: Paste relevant logs. NEVER paste secrets, tokens, or live customer PII.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submit
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: This report contains no secrets or live customer PII.
+          required: true

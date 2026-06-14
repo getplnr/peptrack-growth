@@ -1,0 +1,32 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+permissions:
+  contents: read
+env:
+  SKIP_ENV_VALIDATION: "1"
+  NEXT_TELEMETRY_DISABLED: "1"
+jobs:
+  quality:
+    name: Quality (typecheck · lint)
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Prisma generate (if present)
+        run: if [ -f prisma/schema.prisma ]; then npx prisma generate; fi
+      - name: Typecheck
+        run: npx tsc --noEmit
+      - name: Lint (non-blocking)
+        run: npm run --if-present lint || echo "::warning::lint findings"

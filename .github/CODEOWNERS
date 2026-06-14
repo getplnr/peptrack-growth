@@ -1,0 +1,11 @@
+# Default owner for everything in this repo.
+# Update @getplnr to the GitHub handle (or team, once a real Org exists, e.g. @org/eng).
+* @getplnr
+
+# Tighten ownership for high-risk areas (uncomment + adjust per repo):
+# /prisma/                @getplnr
+# /lib/ai/                @getplnr
+# /app/api/               @getplnr
+# /.github/               @getplnr
+# /**/billing*            @getplnr
+# /**/consent*            @getplnr

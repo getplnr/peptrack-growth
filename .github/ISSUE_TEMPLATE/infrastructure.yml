@@ -1,0 +1,52 @@
+name: 🛠️ Infrastructure / DevOps
+description: CI/CD, deployment, environments, database, observability, or tooling work.
+title: "[Infra]: "
+labels: ["Infrastructure", "triage"]
+body:
+  - type: dropdown
+    id: product
+    attributes:
+      label: Product / scope
+      options: [TALNT, PLNR, Estimatics, PepTrack, RewardEd, Hart Vintage, Organization-wide]
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - CI/CD (GitHub Actions)
+        - Vercel deployment
+        - App Store / iOS pipeline
+        - Supabase / database
+        - Secrets / environment variables
+        - Observability (Sentry / analytics)
+        - Domains / DNS
+        - Developer tooling
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: [P0-Critical, P1-High, P2-Medium, P3-Low]
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current state
+      description: What exists today and why it's a problem. (e.g. "TALNT deploys via manual npx vercel --prod, no git-based CI.")
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: Target state
+    validations:
+      required: true
+  - type: textarea
+    id: risk
+    attributes:
+      label: Risk / blast radius
+      description: Does this touch production data or live deploys? Rollback plan?
